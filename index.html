@@ -11,11 +11,18 @@
     <div class="main">
         <h1 class="title">Rock Paper Scissors</h1>
         <div class="buttons">
-            <button class="button--click"><img src="./photos/rock.jpeg" ></button>
-            <button class="button--click"><img src="./photos/paper.jpeg" ></button>
-            <button class="button--click"><img src="./photos/scissors.jpeg" ></button>
+            <button class="button--click" id="rock"><img src="./photos/rock.jpeg" ></button>
+            <button class="button--click" id="paper"><img src="./photos/paper.jpeg" ></button>
+            <button class="button--click" id="scissors"><img src="./photos/scissors.jpeg" ></button>
         </div>
-        
+        <div class="round--text">
+            <!-- You won the round! rock beats scissors -->
+        </div>
+        <div class="score">
+            <div class="playerscore">You: </div>
+            <div class="computerscore">Computer: </div>
+        </div>
+        <div class="final--msg"></div>
     </div>
 </body>
 <script src="index.js"></script>
